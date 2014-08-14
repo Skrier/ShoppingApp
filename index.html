@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Shopping list App</title>
+        <!-- CSS sheets -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+		<!-- JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src='js/app.js'></script>
+	</head>
+	<body>
+	  <div id="div-main">
+
+		<div id="header"> <!--Header-->
+			
+			<h1>Shopping List App</h1>
+
+		</div>
+
+		<div id="instructions"> <!--Instructions-->
+
+            <h3>Welcome to my shopping list application</h3>
+
+            <h4>Please follow the instructions below</h4>
+
+            <ul>
+               <li>Enter the name of your item in the name box</li>
+               <li>Enter the quantity of the item in the quantity box </li>
+			   <li>Enter the price of the item in the price box</li>
+			   <li>Then click the add buttom to update your list</li>
+			   <li>To clear list click the clear button</li>
+			   <li>To clear a item on the list click the X button</li>
+            </ul>
+		</div>
+
+		<div id="container"><!--Entry form-->
+            <form>
+            	<ul>
+	            	<li id="textBox">Item name<input class="listInput" id="textBoxValue" type="text" name="Item name"  placeholder="Enter a item" size="25" maxlength="25" autofocus></li>
+	            	<li id="priceBox">Quantity<input class="listInput" id="priceBoxValue" type="number" min='0.00' max='100' name="Quantity" placeholder="0"></li>
+	            	<li id="quantityBox">Price<input class="listInput" id="quantityBoxValue" type="number" min='0.00' max='100' name="Price" placeholder="0"></li>
+	            	<li><input class="button" id="addItem" type="button" name='Addtolist' value="Add"></li>
+	            	<li><input class="button" id="clearList" type="button" name='Clearlist' value="Clear"></li>
+            	</ul>           	
+            </form>
+			
+		</div>
+
+		<div id="list-container"><!-- Shopping list -->
+		    <div class="listVariables">
+		    	<span class='contVar description'>Description</span>
+		    	<span class='contVar'>Qty</span>
+		    	<span class='contVar'>Price</span>
+		    	<span class='contVar'>Total</span>
+		    	<span class='contVar'>Del</span>	
+		    </div>
+		    <div class='listVariableExample'>
+		    	<span class='contVar1 description1'>Apples</span>
+		    	<span class='contVar1'>£<span>8</span></span>
+		    	<span class='contVar1'>1</span>
+		    	<span class='contVar1'>£<span>8</span></span>
+		    	<span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span>	
+		    </div>			
+		</div>
+
+		<div id="list-summary"><!-- Shopping list summary-->
+            
+            	<p>Shopping list summary</p>
+           	    <div id="summaryDescription">
+            		<span class='contVar2'>Total Amount excl vat</span>
+                    <span class='contVar2'>Vat @ 20%</span>
+					<span class='contVar2'>Total Amount incl vat</span>
+            	</div>
+            	<div id="summaryValues" >
+            		<span class='contVar3'>£<span>0</span></span>
+                    <span class='contVar3'>£<span>0</span></span>
+					<span class='contVar3'>£<span>0</span></span>
+            	</div>
+                     
+		</div>
+
+		<div id="footer"><!-- footer -->
+			<span class='button1 footer1'>Back to the top</span>
+		</div>
+	  </div>
+	</body>
+	</html>	

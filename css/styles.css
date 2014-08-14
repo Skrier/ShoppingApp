@@ -1,0 +1,169 @@
+body {background-color: #45474d;
+      }
+
+#div-main {background-color: #12ABDE;
+          font-family: National,Helvetica,Arial,sans-serif;
+          margin: 20px 20px 20px 20px;
+          font-weight: bold;
+          font-size: 13px;
+          color: #fff;
+          text-transform: uppercase;
+          min-height: 100%;
+          }
+
+#header, #instructions, #container, #list-container, #list-summary, #footer {background-color:#b3d4fc ;
+											                                }
+											                                
+#header {margin: 20px 30% 20px 30%;
+		font-style: italic;
+		font-size: 36px;
+		padding: 3px 3px 3px 3px;
+		border-radius: 8px;
+		border: 2px #b3d4fc solid;
+		text-align: center;
+		position: relative;
+		top: 15px;
+       }	
+
+#instructions {margin: 20px 35% 20px 35%;
+			   border-radius: 8px;		
+               border: 2px #b3d4fc solid;
+               position: relative;
+		       top: 10px;
+		       padding: 10px 10px 10px 20px;
+              }	
+
+#instructions ul {list-style-type:circle;
+					text-transform: none;
+					margin-left: 20px;
+ 				   }
+#instructions h3, h4, ul {display: block;
+							margin-top: 3px;
+							margin-bottom: 3px;}
+
+#container {position: relative;
+		    top: 10px;
+            margin: 20px 18% 20px 18%;
+            padding: 5px 5px 5px 5px;
+           	border-radius: 8px;
+			}
+
+div form ul li {display: inline-block;
+				font-size: 18px;
+				vertical-align: middle;
+				}	
+
+form {margin-left:20px;}
+
+.listInput {height: 16px;
+	        border-radius: 4px;
+            padding: 5px 8px 5px 8px;
+            text-transform: none;
+            color: black;
+            border: none;
+            margin-left: 8px;
+            width: auto;
+			}
+input {text-align: center;}
+
+.button {vertical-align: middle;
+		color: #fff;
+		background-color: #12ABDE;
+		height: 26px;
+		text-transform: uppercase;
+		font-family: inherit;
+		font-weight: bold;
+		border-radius: 2em;
+		border: none;
+		cursor: pointer;
+		padding: 5px 8px 5px 8px;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 16px;
+}
+
+#list-container, #list-summary {display: inline-block;
+                                 border-radius: 8px;
+}
+
+#list-container {margin: 20px 10% 20px 10%;
+				 padding: 10px 10px 10px 10px;
+				}
+.contVar {font-size: 18px;
+		 border-radius: 4px;
+		 border:1px #fff solid;
+		 margin-left: 2px;
+         padding: 2px 4px 2px 4px;
+         display: inline-block;
+         width:75px;
+         text-align: center;
+			}
+
+.contVar1 {font-size: 18px;
+			margin-left: 2px;
+         	padding: 2px 4px 2px 4px;
+         	display: inline-block;
+         	margin-left: 2px;
+         	margin-top: 5px;
+         	width:75px;
+         	text-align: center;
+         	vertical-align: middle;
+         	border: 1px transparent solid;
+     		} 
+
+.description, .description1 {width: 300px;
+							}
+
+.button1 {vertical-align: middle;
+			color: #fff;
+			background-color: #b3d4fc;
+			height: 26px;
+			text-transform: uppercase;
+			font-family: inherit;
+			font-weight: bold;
+			border-radius: 2em;
+			border: 1px white solid;
+			cursor: pointer;
+			padding: 3px 6px 3px 6px;
+			text-align: center;
+			vertical-align: middle;
+			font-size: 16px;
+			}
+
+#footer {height: 46px;
+		text-align: center;
+		padding:10px 0px 10px 0px;
+		margin-top: 130px;}
+
+.footer1 { display: inline-block;
+         vertical-align: middle;
+         padding-top: 14px;
+         padding-right: 12px;
+         padding-left: 12px;
+     }
+
+#summaryDescription, #summaryValues {display: inline-block;
+
+									}
+
+.contVar2, .contVar3 {display: block;
+						padding: 4px 4px 4px 4px;
+
+}
+
+.contVar3 {margin-left: 10px;
+
+			}
+
+
+#list-summary p {font-size: 18px;
+				 border-radius: 4px;
+				 margin-left: 2px;
+		         padding: 2px 4px 2px 4px;
+		         width:250px;
+		         text-align: center;
+     			}
+
+#list-summary { 
+				border-radius: 8px;
+				padding: 3px 3px 3px 3px;}
