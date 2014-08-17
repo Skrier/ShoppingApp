@@ -17,11 +17,10 @@ var totalArray = [];
 	        var quantity = +$('#quantityBoxValue').val();
 	        var item = $('#textBoxValue').val();
 	        total = price * quantity;
-	        /*var appendItem = '<div id='listVariableExample'><span class='contVar1' id='description1'>' + item + '</span><span class='contVar1'>£<span>' + price + '</span></span><span class='contVar1'>' + quantity + '</span><span class='contVar1'>£<span>' + total + '</span></span><span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span></div>';        
-	        */
-            var appendItem = '<div id='listVariableExample'><span class='contVar1' id='description1'>' + Apples + '</span></div>';
+	        var appendItem = "<div id='listVariableExample'><span class='contVar1' id='description1'>" + item + "</span><span class='contVar1'>£<span>" + price + "</span></span><span class='contVar1'>" + quantity + "</span><span class='contVar1'>£<span>" + total + "</span></span><span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span></div>";       
 	    $('#listVariableExample').hide();
 	    $('#list-container').append(appendItem);
+	    appendItem.slideDown(600);
 	    totalArray.push(total);
 	    summaryTotal();
     });
@@ -42,8 +41,8 @@ var totalArray = [];
 
 		    	                                                                                                          
 
-<div id='listVariableExample'>
-		    	<span class='contVar1' id='description1'>Apples</span>
+ <div class='listVariableExample'>
+		    	<span class='contVar1 description1'>Apples</span>
 		    	<span class='contVar1'>£<span>8</span></span>
 		    	<span class='contVar1'>1</span>
 		    	<span class='contVar1'>£<span>8</span></span>
