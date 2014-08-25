@@ -16,7 +16,7 @@
 
 		<div id="header"> <!--Header-->
 			
-			<h1>Shopping List App</h1>
+			<h1 id='Top'> Shopping List App</h1>
 
 		</div>
 
@@ -59,9 +59,9 @@
 		    </div>
 		    <div class='listVariableExample'>
 		    	<span class='contVar1 description1'>Apples</span>
-		    	<span class='contVar1'>£<span>8</span></span>
-		    	<span class='contVar1'>1</span>
-		    	<span class='contVar1'>£<span>8</span></span>
+		    	<span class='contVar1'>£<span>1</span></span>
+		    	<span class='contVar1'>0</span>
+		    	<span class='contVar1'>£<span class='contVarT'>0</span></span>
 		    	<span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span>	
 		    </div>			
 		</div>
@@ -75,15 +75,17 @@
 					<span class='contVar2'>Total Amount incl vat</span>
             	</div>
             	<div id="summaryValues" >
-            		<span class='contVar3'>£<span>0</span></span>
-                    <span class='contVar3'>£<span>0</span></span>
-					<span class='contVar3'>£<span>0</span></span>
+            		<span class='contVar3'>£<span id='listTotal'>0</span></span>
+                    <span class='contVar3'>£<span id='vatTotal'>0</span></span>
+					<span class='contVar3'>£<span id='shopAppTotal'>0</span></span>
             	</div>
                      
 		</div>
 
 		<div id="footer"><!-- footer -->
+		   <a href="#Top">
 			<span class='button1 footer1'>Back to the top</span>
+		    </a>	
 		</div>
 	  </div>
 	</body>

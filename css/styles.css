@@ -86,6 +86,8 @@ input {text-align: center;}
                                  border-radius: 8px;
 }
 
+#list-container {min-height: 200px;}
+
 #list-container {margin: 20px 10% 20px 10%;
 				 padding: 10px 10px 10px 10px;
 				}
@@ -100,19 +102,20 @@ input {text-align: center;}
 			}
 
 .contVar1 {font-size: 18px;
-			margin-left: 2px;
          	padding: 2px 4px 2px 4px;
          	display: inline-block;
          	margin-left: 2px;
          	margin-top: 5px;
          	width:75px;
          	text-align: center;
-         	vertical-align: middle;
          	border: 1px transparent solid;
+         	border-radius: 4px;
      		} 
 
 .description, .description1 {width: 300px;
 							}
+
+.listVariables, .listVariableExample {position: relative;}
 
 .button1 {vertical-align: middle;
 			color: #fff;
@@ -133,7 +136,7 @@ input {text-align: center;}
 #footer {height: 46px;
 		text-align: center;
 		padding:10px 0px 10px 0px;
-		margin-top: 130px;}
+		margin-top: 50px;}
 
 .footer1 { display: inline-block;
          vertical-align: middle;
@@ -164,6 +167,6 @@ input {text-align: center;}
 		         text-align: center;
      			}
 
-#list-summary { 
+#list-summary { position: fixed;
 				border-radius: 8px;
 				padding: 3px 3px 3px 3px;}
