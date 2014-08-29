@@ -22,7 +22,7 @@ var totalSummary = 0;
 	        var quantity = +$('#quantityBoxValue').val();
 	        var item = $('#textBoxValue').val();
 	        total = price * quantity;
-	        var appendItem = "<div class='listVariableExample'><span class='contVar1 description1'>" + item + "</span><span class='contVar1'> £<span>" + price + "</span></span><span class='contVar1'>" + quantity + "</span><span class='contVar1'> £<span class='contVarT'>" + total + "</span></span><span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span></div>";               
+	        var appendItem = "<div class='listVariableExample'><span class='contVar1 description1'>" + item + "</span><span class='contVar1'>£<span>" + price + "</span></span><span class='contVar1'>" + quantity + "</span><span class='contVar1'>£<span class='contVarT'>" + total + "</span></span><span class='contVar1'><input class='button1' type='submit' name='Delete' value='X'></span></div>";               
 	        $('#list-container').append(appendItem);
 	        $('#list-container div:last-child').hide().slideDown(500);
 	    totalSummary += total;
