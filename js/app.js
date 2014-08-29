@@ -12,6 +12,7 @@ var totalSummary = 0;
 	      $('#listTotal').html(0);
 	      $('#vatTotal').html(0);
 	      $('#shopAppTotal').html(0);
+	      $('.listInput').html('');
     });
 
 /* adds an item to the list */ 
@@ -28,7 +29,7 @@ var totalSummary = 0;
 	    summaryTotal();     
 	    $('#priceBoxValue').val(0);
 	    $('#quantityBoxValue').val(0);
-	    $('#textBoxValue').val(0);
+	    $('#textBoxValue').val(' ');
     });
 
 /* Updates the summary */ 
