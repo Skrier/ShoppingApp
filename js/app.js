@@ -27,9 +27,7 @@ var totalSummary = 0;
 	        $('#list-container div:last-child').hide().slideDown(500);
 	    totalSummary += total;
 	    summaryTotal();     
-	    $('#priceBoxValue').val(0);
-	    $('#quantityBoxValue').val(0);
-	    $('#textBoxValue').val(' ');
+	  $('.listInput').html('');
     });
 
 /* Updates the summary */ 
